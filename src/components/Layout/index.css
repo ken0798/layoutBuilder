@@ -1,0 +1,7 @@
+/* Write your CSS here */
+.layout_card {
+  margin: 4rem 6rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}

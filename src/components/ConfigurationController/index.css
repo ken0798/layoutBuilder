@@ -1,0 +1,23 @@
+/* Write your CSS here */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #475569;
+  color: #f1f5f9;
+  padding: 1rem 3rem;
+}
+
+.header div {
+  margin-bottom: 1rem;
+}
+
+.card div {
+  margin-top: 1rem;
+}
+
+.card div label {
+  margin-left: 16px;
+}

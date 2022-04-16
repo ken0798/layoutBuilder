@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.body_page {
+  display: flex;
+  color: #64748b;
+  margin: 0.75rem 0;
+}
+
+.body_page h1 {
+  font-size: 20px;
+  color: #475569;
+}
+
+.menu_bg {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  background-color: #e2e8f0;
+}
+
+.left_body {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  /* flex-grow: 1; */
+  padding-right: 3.5rem;
+}
+
+.left_body ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.left_body ul li {
+  margin: 1rem 0;
+}
+
+.middle_body {
+  /* width: 60%; */
+  background-color: #f1f5f9;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.right_body {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  /* flex-grow: 1; */
+  padding-right: 3.5rem;
+  padding-bottom: 1rem;
+}
+
+.right_body div {
+  border: 1px solid #64748b;
+  padding: 2rem;
+  margin-top: 0.75rem;
+  width: 120px;
+}
+
+.in_between {
+  justify-content: space-between;
+}
